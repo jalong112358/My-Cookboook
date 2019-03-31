@@ -1,0 +1,22 @@
+.recipe-feed-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* @media only screen and (max-width: 1400px) {
+  .recipe-feed-wrapper {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .recipe-feed-wrapper {
+    max-width: 640px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .recipe-feed-wrapper {
+    max-width: 320px;
+  }
+} */

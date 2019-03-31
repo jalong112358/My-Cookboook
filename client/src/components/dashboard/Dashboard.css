@@ -1,0 +1,37 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.dashboard-nav {
+  margin-right: 50px;
+}
+.dashboard-nav ul {
+  list-style: none;
+  margin-right: 50px;
+}
+.dashboard-nav ul li {
+  margin-right: 50px;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.dashboard-nav ul li span {
+  color: grey;
+  cursor: pointer;
+}
+.dashboard-nav ul li span.active {
+  color: black;
+}
+.dashboard-nav ul li span i {
+  margin-right: 10px;
+}
+.dashboard-nav ul li span:hover {
+  color: black;
+}
+
+.dashboard-content {
+  flex-grow: 1;
+}
+.dashboard-content .form-submit-btn {
+  display: inline-block;
+}

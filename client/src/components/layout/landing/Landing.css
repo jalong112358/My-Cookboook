@@ -1,0 +1,40 @@
+.featured-recipes {
+  width: 100%;
+  height: 350px;
+  max-width: 1260px;
+  margin: 0 auto;
+  background: lightgrey;
+  overflow: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.featured-item {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  height: 335px;
+}
+.featured-item img {
+  height: 100%;
+}
+
+.featured-item .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  z-index: 999;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.featured-item .info p {
+  margin-top: 5px;
+}

@@ -1,0 +1,59 @@
+.comment-form {
+  margin-bottom: 50px;
+}
+
+.comment-form,
+.comment-item {
+  width: 100%;
+  padding: 25px;
+  border-left: 5px solid rgb(203, 126, 126);
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.3);
+}
+
+.comment-item-top {
+  display: flex;
+  justify-content: space-between;
+}
+.comment-item-date {
+  color: grey;
+}
+
+.comment-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.form-submit-btn {
+  background-color: rgb(179, 49, 49) !important;
+}
+
+.form-submit-btn:hover {
+  background-color: rgb(140, 39, 39) !important;
+}
+
+.rate-recipe i:hover {
+  color: rgb(255, 196, 0);
+}
+
+.rate-recipe .star-empty {
+  color: rgb(191, 191, 191);
+}
+.rate-recipe .star-empty:hover {
+  color: rgb(152, 152, 152);
+}
+
+.rate-recipe .star-solid {
+  color: rgb(255, 196, 0);
+}
+.rate-recipe .star-solid:hover {
+  color: rgb(206, 158, 0);
+}
+
+.rate-recipe .star-solid.display-only:hover {
+  color: rgb(255, 196, 0);
+}
+
+.rate-recipe .star-empty.display-only:hover {
+  color: rgb(191, 191, 191);
+}

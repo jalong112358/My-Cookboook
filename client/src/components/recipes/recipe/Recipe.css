@@ -1,0 +1,139 @@
+.recipe-content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.recipe-content .recipe-image {
+  width: 500px;
+}
+
+.recipe-content .recipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.recipe-content .recipe-header-info {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.recipe-content .recipe-title {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.recipe-content .recipe-rating {
+  display: flex;
+  align-items: center;
+}
+.recipe-content .recipe-rating .reviews-link {
+  text-decoration: none;
+  color: rgb(179, 49, 49);
+}
+.recipe-content .recipe-rating .reviews-link:hover {
+  text-decoration: underline;
+}
+
+.recipe-content .recipe-description {
+  margin: 15px 0;
+}
+
+.recipe-content button {
+  background: none;
+  border: none;
+  display: inline-block;
+}
+
+.recipe-content .user-link {
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(67, 67, 67);
+}
+
+.recipe-content .user-link span {
+  color: rgb(179, 49, 49);
+  font-weight: 500;
+}
+.recipe-content .user-link span:hover {
+  text-decoration: underline;
+}
+
+.recipe-meta-data {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 0;
+}
+.recipe-meta-data p {
+  margin-right: 10px;
+}
+
+.recipe-meta-data p span {
+  font-weight: bold;
+}
+.recipe-meta-data div {
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid rgb(203, 126, 126);
+  margin-bottom: 50px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.3);
+}
+
+.recipe-list-item {
+  display: flex;
+  align-items: center;
+
+  padding: 15px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.recipe-list-item div {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  background: lightgrey;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 25px;
+}
+.directions-header {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  border-left: 5px solid rgb(203, 126, 126);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.3);
+}
+.directions-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.directions-header-info p {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.comment-section {
+  padding: 100px 0;
+}
