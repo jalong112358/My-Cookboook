@@ -5,8 +5,8 @@
   width: 100%;
   height: 65px;
   background-color: rgb(179, 49, 49);
-  z-index: 10;
-  box-shadow: 0 3px 5px rgb(159, 159, 159);
+  z-index: 20;
+  box-shadow: 0 3px 5px rgba(29, 29, 29, 0.358);
   padding: 0 50px;
 }
 

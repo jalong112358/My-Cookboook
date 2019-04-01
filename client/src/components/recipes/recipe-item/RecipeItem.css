@@ -50,11 +50,10 @@
 }
 
 .recipe-item .user-link span {
-  color: rgb(179, 49, 49);
   font-weight: 500;
 }
 .recipe-item .user-link span:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 @media only screen and (max-width: 1088px) {

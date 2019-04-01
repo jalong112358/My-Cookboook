@@ -46,9 +46,9 @@ class RecipeItem extends Component {
 
         <p className="recipe-description">{recipe.description}</p>
 
-        <Link className="user-link" to={`/profile/${recipe.userhandle}`}>
+        <p className="user-link" to={`/profile/${recipe.userhandle}`}>
           By <span>{recipe.name}</span>
-        </Link>
+        </p>
       </div>
     );
   }
